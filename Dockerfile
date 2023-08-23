@@ -4,8 +4,6 @@
 # Dockerfile for Flask App
 FROM python:3.11-slim-bookworm
 
-MAINTAINER Sakthi Santhosh
-
 WORKDIR /app/
 
 COPY ./ ./
